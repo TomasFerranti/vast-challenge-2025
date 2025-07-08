@@ -1,7 +1,6 @@
 # Vast 2025 - Mini-challenge 2
 
 Project for making the mini challenge 2 of VAST
-The mini challenge 3 consists of helping Clepper Jessen, a former analyst, to find corruption acts in the "Oceanus" Island.
 
 ## What do we have?
 We have three knowledge graphs describing three datasets, where the first two are incomplete versions of the third.
