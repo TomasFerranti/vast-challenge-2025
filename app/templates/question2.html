@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ title }}</h1>
+    <p class="description">{{ description }}</p>
+    
+    <div class="visualization-container">
+        <div id="question2-viz"></div>
+    </div>
+    
+    <div class="info-panel">
+        <h3>Analysis Summary</h3>
+        <p>This visualization shows the distribution of sentiment scores for committee members (entity.person) across different industries. Each boxplot represents one industry's sentiment distribution, revealing potential biases in the COOTEFOO committee's attitudes.</p>
+        
+        <h4>How to Interpret:</h4>
+        <ul>
+            <li><strong>Box:</strong> Contains 50% of the data (Q1 to Q3)</li>
+            <li><strong>Median line:</strong> Middle value of all sentiments</li>
+            <li><strong>Whiskers:</strong> Show the range of typical values</li>
+            <li><strong>Red circles:</strong> Outliers (extreme sentiment values)</li>
+            <li><strong>Sentiment scale:</strong> -1 (very negative) to +1 (very positive)</li>
+        </ul>
+        
+        <h4>Key Insights:</h4>
+        <ul>
+            <li>Compare median sentiment across industries to identify bias</li>
+            <li>Look for industries with consistently positive or negative sentiment</li>
+            <li>Outliers may indicate specific controversial topics or strong opinions</li>
+            <li>Sample size (n=X) indicates how many sentiment entries each industry has</li>
+        </ul>
+        
+        <div id="stats"></div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/question2.css') }}">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ url_for('static', filename='js/question2.js') }}"></script>
+{% endblock %} 

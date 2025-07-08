@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ title }}</h1>
+    <p class="description">{{ description }}</p>
+    
+    <div class="visualization-container">
+        <div id="question3-viz"></div>
+    </div>
+    
+    <div class="info-panel">
+        <h3>Visualization Guide</h3>
+        <p>This heatmap visualization compares sentiment patterns across the three datasets (TROUT, FILAH, and complete journalist dataset). Each cell represents a person-topic combination:</p>
+        <ul>
+            <li><strong>X-axis:</strong> Topics (grouped by tourism vs. fishing)</li>
+            <li><strong>Y-axis:</strong> People/Entities</li>
+            <li><strong>Rectangles:</strong> Plans with sentiment-based coloring</li>
+            <li><strong>Circles:</strong> Discussions with sentiment-based coloring</li>
+            <li><strong>Hatched pattern:</strong> Missing data in incomplete datasets</li>
+        </ul>
+        
+        <div class="legend">
+            <h4>Color Legend</h4>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #d7191c;"></div>
+                <span class="legend-text">Negative sentiment (-1.0)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #fdae61;"></div>
+                <span class="legend-text">Neutral sentiment (0.0)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #2c7bb6;"></div>
+                <span class="legend-text">Positive sentiment (+1.0)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgOCA4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0wIDBoNHY4SDB6IiBmaWxsPSIjYWFhIi8+PC9zdmc+') repeat;"></div>
+                <span class="legend-text">Missing data (incomplete datasets)</span>
+            </div>
+        </div>
+        
+        <div id="stats"></div>
+        
+        <h4>Analysis Questions:</h4>
+        <ul>
+            <li>How do sentiment patterns differ between TROUT and FILAH datasets?</li>
+            <li>What additional insights emerge when viewing the complete journalist dataset?</li>
+            <li>Are TROUT's accusations strengthened, weakened, or unchanged in the complete context?</li>
+            <li>Which topics show the most significant differences between partial and complete datasets?</li>
+        </ul>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/question3.css') }}">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ url_for('static', filename='js/question3.js') }}"></script>
+{% endblock %} 

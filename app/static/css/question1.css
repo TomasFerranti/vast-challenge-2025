@@ -1,0 +1,201 @@
+/* Question 1 - Sentiment Heatmap Styles */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.visualization-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+#question1-viz {
+    min-height: 700px;
+    position: relative;
+}
+
+.controls {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+}
+
+.controls label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.controls button:hover {
+    background: #f8f9fa;
+    border-color: #007bff;
+}
+
+.controls button.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.cell {
+    transition: all 0.3s ease;
+}
+
+.cell:hover {
+    stroke: #333;
+    stroke-width: 2;
+    filter: brightness(1.1);
+}
+
+.cell-text {
+    pointer-events: none;
+    font-family: 'Arial', sans-serif;
+}
+
+.x-axis text {
+    font-size: 12px;
+    fill: #333;
+}
+
+.y-axis text {
+    font-size: 12px;
+    fill: #333;
+    font-weight: bold;
+}
+
+.legend text {
+    font-size: 12px;
+    fill: #333;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 12px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 6px;
+    pointer-events: none;
+    max-width: 250px;
+    line-height: 1.4;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.info-panel {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 25px;
+    border: 1px solid #e9ecef;
+}
+
+.info-panel h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.info-panel p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.legend-info {
+    margin-bottom: 20px;
+}
+
+.legend-info h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.legend-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legend-info li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #666;
+}
+
+.legend-color {
+    margin-right: 8px;
+}
+
+#stats {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#stats strong {
+    color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+    
+    .visualization-container {
+        padding: 15px;
+        overflow-x: auto;
+    }
+    
+    #question1-viz svg {
+        min-width: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .controls {
+        text-align: center;
+    }
+    
+    .controls label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .controls button {
+        margin: 5px;
+        padding: 10px 20px;
+    }
+    
+    .info-panel {
+        padding: 20px;
+    }
+} 
