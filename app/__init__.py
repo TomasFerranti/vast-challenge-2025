@@ -22,8 +22,8 @@ app.config["JOURNALIST_FILE"] = os.path.join(base_dir, "data", "journalist.json"
 app.config["OCEANUS_MAP_FILE"] = os.path.join(base_dir, "data", "oceanus_map.geojson")
 app.config["ROAD_MAP_FILE"] = os.path.join(base_dir, "data", "road_map.json")
 
-# List of visualization modules for Challenge 2 - 4 questions
-VISUALIZATIONS = ["question1", "question2", "question3", "question4"]
+# List of visualization modules for Challenge 2 - 4 questions + timeline + meetups
+VISUALIZATIONS = ["question1", "question2", "question3", "question4", "timeline", "meetups"]
 
 # Cache for loaded modules
 visualization_modules = {}

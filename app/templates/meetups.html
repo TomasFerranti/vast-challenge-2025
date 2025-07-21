@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ title }}</h1>
+    <p class="description">{{ description }}</p>
+    
+    <div class="controls-container">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="dataset-select" class="form-label">Dataset:</label>
+                <select id="dataset-select" class="form-select">
+                    <option value="journalist">Journalist</option>
+                    <option value="FILAH">FILAH</option>
+                    <option value="TROUT">TROUT</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="fix-dates" checked>
+                    <label class="form-check-label" for="fix-dates">
+                        Fix dates (0040 → 2040)
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button id="load-meetups" class="btn btn-primary">Load Meetups</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="meetups-container">
+        <div id="meetups-viz"></div>
+        <div id="loading" class="text-center" style="display: none;">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading meetups data...</p>
+        </div>
+    </div>
+    
+    <div class="info-panel">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Visualization Info</h3>
+                <p>This timeline shows meetups where multiple people intersect at the same place and time. Each point represents a location where 2 or more committee members were present simultaneously.</p>
+                
+                <div class="legend-section">
+                    <h4>How to use:</h4>
+                    <ul>
+                        <li>Select a dataset (FILAH, TROUT, or journalist)</li>
+                        <li>Check "Fix dates" to correct 0040 dates to 2040</li>
+                        <li>Click "Load Meetups" to generate the visualization</li>
+                        <li>Hover over points to see who was present</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="legend-container">
+                    <h4>City Legend:</h4>
+                    <div id="city-legend"></div>
+                </div>
+                
+                <div class="dataset-info">
+                    <h4>Dataset Info:</h4>
+                    <div id="dataset-details"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="meetup-stats">
+                    <h4>Meetup Statistics:</h4>
+                    <div id="meetup-stats"></div>
+                </div>
+                
+                <div class="people-info">
+                    <h4>People in Dataset:</h4>
+                    <div id="people-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/meetups.css') }}">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ url_for('static', filename='js/meetups.js') }}"></script>
+{% endblock %} 
