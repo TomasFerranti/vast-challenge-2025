@@ -1,0 +1,743 @@
+{
+    "trips": {
+        "Simone Kat": [
+            "trip_146",
+            "trip_47",
+            "trip_274",
+            "trip_20",
+            "trip_65",
+            "trip_114",
+            "trip_267",
+            "trip_22",
+            "trip_138"
+        ],
+        "Carol Limpet": [
+            "trip_188",
+            "trip_177",
+            "trip_224"
+        ],
+        "Tante Titan": [
+            "trip_33",
+            "trip_227",
+            "trip_106",
+            "trip_178"
+        ],
+        "Teddy Goldstein": [
+            "trip_116"
+        ],
+        "Seal": [
+            "trip_149"
+        ]
+    },
+    "trips_info": {
+        "trip_146": {
+            "type": "trip",
+            "date": "0040-04-06",
+            "start": "06:09:00",
+            "end": "07:36:00",
+            "id": "trip_146",
+            "locations": [
+                [
+                    9196630064,
+                    "0040-04-06 06:54:00"
+                ],
+                [
+                    30179401,
+                    "0040-04-06 06:54:00"
+                ],
+                [
+                    4978801697,
+                    "0040-04-06 06:54:00"
+                ],
+                [
+                    36988183,
+                    "0040-04-06 07:36:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-04-06 07:36:00"
+                ]
+            ]
+        },
+        "trip_188": {
+            "type": "trip",
+            "date": "0040-06-20",
+            "start": "09:00:00",
+            "end": "21:00:00",
+            "id": "trip_188",
+            "locations": [
+                [
+                    582184557,
+                    "0040-06-20 14:13:00"
+                ],
+                [
+                    581853838,
+                    "0040-06-20 14:13:00"
+                ],
+                [
+                    581717431,
+                    "0040-06-20 14:25:00"
+                ],
+                [
+                    582261047,
+                    "0040-06-20 14:38:00"
+                ],
+                [
+                    "South Paackland Ferry Terminal",
+                    "0040-06-20 19:00:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-06-20 21:00:00"
+                ],
+                [
+                    48511194,
+                    "0040-06-20 21:00:00"
+                ]
+            ]
+        },
+        "trip_33": {
+            "type": "trip",
+            "date": "0040-06-04",
+            "start": "07:00:00",
+            "end": "19:00:00",
+            "id": "trip_33",
+            "locations": [
+                [
+                    48475647,
+                    "0040-06-04 09:19:12"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-06-04 13:00:00"
+                ],
+                [
+                    "South Paackland Ferry Terminal",
+                    "0040-06-04 19:00:00"
+                ]
+            ]
+        },
+        "trip_47": {
+            "type": "trip",
+            "date": "0040-04-10",
+            "start": "06:38:00",
+            "end": "09:31:00",
+            "id": "trip_47",
+            "locations": [
+                [
+                    30179401,
+                    "0040-04-10 07:50:00"
+                ],
+                [
+                    4978801697,
+                    "0040-04-10 08:38:00"
+                ],
+                [
+                    36988183,
+                    "0040-04-10 09:31:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-04-10 09:31:00"
+                ],
+                [
+                    30188848,
+                    "0040-04-10 09:31:00"
+                ]
+            ]
+        },
+        "trip_177": {
+            "type": "trip",
+            "date": "0040-04-01",
+            "start": "09:00:00",
+            "end": "21:00:00",
+            "id": "trip_177",
+            "locations": [
+                [
+                    37828755,
+                    "0040-04-01 11:35:00"
+                ],
+                [
+                    37866955,
+                    "0040-04-01 11:49:00"
+                ],
+                [
+                    37826661,
+                    "0040-04-01 12:04:00"
+                ],
+                [
+                    "Paackland Ferry Terminal",
+                    "0040-04-01 15:00:00"
+                ],
+                [
+                    "Lomark Ferry Terminal",
+                    "0040-04-01 21:00:00"
+                ],
+                [
+                    48580702,
+                    "0040-04-01 21:00:00"
+                ]
+            ]
+        },
+        "trip_274": {
+            "type": "trip",
+            "date": "0040-05-10",
+            "start": "07:06:00",
+            "end": "08:57:00",
+            "id": "trip_274",
+            "locations": [
+                [
+                    12629409643,
+                    "0040-05-10 07:45:00"
+                ],
+                [
+                    48591000,
+                    "0040-05-10 08:57:00"
+                ]
+            ]
+        },
+        "trip_20": {
+            "type": "trip",
+            "date": "0040-05-27",
+            "start": "06:07:00",
+            "end": "13:00:00",
+            "id": "trip_20",
+            "locations": [
+                [
+                    36988183,
+                    "0040-05-27 06:46:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-05-27 13:00:00"
+                ]
+            ]
+        },
+        "trip_65": {
+            "type": "trip",
+            "date": "0040-05-23",
+            "start": "06:19:00",
+            "end": "08:27:00",
+            "id": "trip_65",
+            "locations": [
+                [
+                    2519420987,
+                    "0040-05-23 07:22:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-05-23 07:22:00"
+                ],
+                [
+                    36988183,
+                    "0040-05-23 08:27:00"
+                ]
+            ]
+        },
+        "trip_114": {
+            "type": "trip",
+            "date": "0040-05-14",
+            "start": "07:31:00",
+            "end": "10:21:00",
+            "id": "trip_114",
+            "locations": [
+                [
+                    48534978,
+                    "0040-05-14 10:21:00"
+                ]
+            ]
+        },
+        "trip_227": {
+            "type": "trip",
+            "date": "0040-07-16",
+            "start": "07:28:00",
+            "end": "08:00:00",
+            "id": "trip_227",
+            "locations": [
+                [
+                    37866955,
+                    "0040-07-16 08:00:00"
+                ]
+            ]
+        },
+        "trip_224": {
+            "type": "trip",
+            "date": "0040-05-18",
+            "start": "07:08:00",
+            "end": "07:37:00",
+            "id": "trip_224",
+            "locations": [
+                [
+                    30179401,
+                    "0040-05-18 07:21:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-05-18 07:37:00"
+                ],
+                [
+                    9196630064,
+                    "0040-05-18 07:37:00"
+                ],
+                [
+                    48511194,
+                    "0040-05-18 07:37:00"
+                ]
+            ]
+        },
+        "trip_106": {
+            "type": "trip",
+            "date": "0040-04-19",
+            "start": "07:00:00",
+            "end": "19:00:00",
+            "id": "trip_106",
+            "locations": [
+                [
+                    30188848,
+                    "0040-04-19 11:26:00"
+                ],
+                [
+                    36988183,
+                    "0040-04-19 11:57:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-04-19 11:57:00"
+                ],
+                [
+                    9196630064,
+                    "0040-04-19 11:57:00"
+                ],
+                [
+                    "Port Grove Ferry Terminal",
+                    "0040-04-19 12:00:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-04-19 13:00:00"
+                ],
+                [
+                    "South Paackland Ferry Terminal",
+                    "0040-04-19 19:00:00"
+                ]
+            ]
+        },
+        "trip_267": {
+            "type": "trip",
+            "date": "0040-04-08",
+            "start": "07:53:00",
+            "end": "09:48:00",
+            "id": "trip_267",
+            "locations": [
+                [
+                    4978801697,
+                    "0040-04-08 08:47:00"
+                ],
+                [
+                    "Lomark Ferry Terminal",
+                    "0040-04-08 08:47:00"
+                ],
+                [
+                    30179401,
+                    "0040-04-08 09:14:00"
+                ],
+                [
+                    36988183,
+                    "0040-04-08 09:48:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-04-08 09:48:00"
+                ],
+                [
+                    9196630064,
+                    "0040-04-08 09:48:00"
+                ]
+            ]
+        },
+        "trip_116": {
+            "type": "trip",
+            "date": "0040-06-01",
+            "start": "07:07:00",
+            "end": "13:00:00",
+            "id": "trip_116",
+            "locations": [
+                [
+                    "Suna Spit",
+                    "0040-06-01 07:07:00"
+                ],
+                [
+                    48591000,
+                    "0040-06-01 07:39:00"
+                ],
+                [
+                    "Lomark Ferry Terminal",
+                    "0040-06-01 11:00:00"
+                ],
+                [
+                    "Himark Ferry Terminal",
+                    "0040-06-01 13:00:00"
+                ],
+                [
+                    30179401,
+                    "0040-06-01 13:00:00"
+                ],
+                [
+                    30188848,
+                    "0040-06-01 13:00:00"
+                ]
+            ]
+        },
+        "trip_22": {
+            "type": "trip",
+            "date": "0040-06-03",
+            "start": "07:46:00",
+            "end": "09:33:00",
+            "id": "trip_22",
+            "locations": [
+                [
+                    35889122,
+                    "0040-06-03 07:46:00"
+                ],
+                [
+                    36988183,
+                    "0040-06-03 09:33:00"
+                ]
+            ]
+        },
+        "trip_138": {
+            "type": "trip",
+            "date": "0040-05-28",
+            "start": "07:15:00",
+            "end": "08:40:00",
+            "id": "trip_138",
+            "locations": [
+                [
+                    35885796,
+                    "0040-05-28 07:15:00"
+                ],
+                [
+                    36988183,
+                    "0040-05-28 08:40:00"
+                ]
+            ]
+        },
+        "trip_178": {
+            "type": "trip",
+            "date": "0040-06-22",
+            "start": "07:00:00",
+            "end": "19:00:00",
+            "id": "trip_178",
+            "locations": [
+                [
+                    36988183,
+                    "0040-06-22 10:00:00"
+                ],
+                [
+                    "Suna Spit",
+                    "0040-06-22 10:23:00"
+                ],
+                [
+                    4978801697,
+                    "0040-06-22 10:23:00"
+                ],
+                [
+                    36988137,
+                    "0040-06-22 10:23:00"
+                ],
+                [
+                    2519420987,
+                    "0040-06-22 11:48:00"
+                ],
+                [
+                    "Port Grove Ferry Terminal",
+                    "0040-06-22 12:00:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-06-22 13:00:00"
+                ],
+                [
+                    "South Paackland Ferry Terminal",
+                    "0040-06-22 19:00:00"
+                ]
+            ]
+        },
+        "trip_149": {
+            "type": "trip",
+            "date": "0040-05-06",
+            "start": "14:00:00",
+            "end": "19:00:00",
+            "id": "trip_149",
+            "locations": [
+                [
+                    35877808,
+                    "0040-05-06 22:51:00"
+                ],
+                [
+                    36988183,
+                    "0040-05-06 23:57:00"
+                ],
+                [
+                    2519420987,
+                    "0040-05-07 02:38:00"
+                ],
+                [
+                    "Port Grove Ferry Terminal",
+                    "0040-05-07 10:00:00"
+                ],
+                [
+                    "Haacklee Ferry Terminal",
+                    "0040-05-07 13:00:00"
+                ],
+                [
+                    "South Paackland Ferry Terminal",
+                    "0040-05-07 19:00:00"
+                ]
+            ]
+        }
+    },
+    "places": {
+        "2519420987": {
+            "lat": -165.9570387791253,
+            "lon": 39.09481909072149,
+            "zone": "tourism",
+            "zone_detail": "restaurant",
+            "label": "The Bait & Stich",
+            "name": "The Bait & Stich",
+            "trip_count": 3
+        },
+        "581853838": {
+            "name": "Jordan Administrative Center",
+            "lat": -164.5619100225969,
+            "lon": 39.271378990764816,
+            "zone": "government",
+            "zone_detail": "",
+            "trip_count": 1
+        },
+        "37828755": {
+            "name": "Dock & Roll Hall of Fame",
+            "lat": -164.35807949540566,
+            "lon": 39.42597256526823,
+            "zone": "tourism",
+            "zone_detail": "restaurant",
+            "trip_count": 1
+        },
+        "36988183": {
+            "name": "Port Grove Customs House",
+            "lat": -165.95536906156963,
+            "lon": 39.09578125508084,
+            "zone": "government",
+            "zone_detail": "customs",
+            "trip_count": 10
+        },
+        "48591000": {
+            "name": "Port Authority Office",
+            "lat": -165.5764102688019,
+            "lon": 39.53856305049022,
+            "zone": "government",
+            "zone_detail": "customs",
+            "trip_count": 2
+        },
+        "4978801697": {
+            "name": "Himark Postal Station",
+            "lat": -165.88276569384072,
+            "lon": 39.66152345845989,
+            "zone": "government",
+            "zone_detail": "post office",
+            "trip_count": 4
+        },
+        "Paackland Ferry Terminal": {
+            "name": "Paackland Ferry Terminal",
+            "lat": -164.40892536689856,
+            "lon": 39.440779216574775,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "30188848": {
+            "name": "Anchor Way Grill",
+            "lat": -165.89024291493132,
+            "lon": 39.66693913163159,
+            "zone": "tourism",
+            "zone_detail": "restaurant",
+            "trip_count": 3
+        },
+        "9196630064": {
+            "name": "Himark City Hall",
+            "lat": -165.88410403403049,
+            "lon": 39.66355038525348,
+            "zone": "government",
+            "zone_detail": "city hall",
+            "trip_count": 4
+        },
+        "35877808": {
+            "name": "Haacklee Inspection Bureau",
+            "lat": -165.68780873674675,
+            "lon": 38.989936752589074,
+            "zone": "government",
+            "zone_detail": "inspections",
+            "trip_count": 1
+        },
+        "581717431": {
+            "name": "Tropics Environmental Hub",
+            "lat": -164.56100199599447,
+            "lon": 39.27513421446645,
+            "zone": "government",
+            "zone_detail": "environmental",
+            "trip_count": 1
+        },
+        "582261047": {
+            "name": "Centralia Post Office",
+            "lat": -164.57730210407283,
+            "lon": 39.26024485966231,
+            "zone": "government",
+            "zone_detail": "post office",
+            "trip_count": 1
+        },
+        "Himark Ferry Terminal": {
+            "name": "Himark Ferry Terminal",
+            "lat": -165.88561230643285,
+            "lon": 39.65564904671655,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "48534978": {
+            "name": "Lomark Post Office",
+            "lat": -165.58690251542836,
+            "lon": 39.511543954732794,
+            "zone": "government",
+            "zone_detail": "post office",
+            "trip_count": 1
+        },
+        "Suna Spit": {
+            "name": "Suna Spit",
+            "lat": -165.75677149453168,
+            "lon": 39.594240090235004,
+            "zone": "connector",
+            "zone_detail": null,
+            "trip_count": 7
+        },
+        "30179401": {
+            "name": "Himark Customs",
+            "lat": -165.88193775383604,
+            "lon": 39.657052492613595,
+            "zone": "government",
+            "zone_detail": "customs",
+            "trip_count": 5
+        },
+        "Port Grove Ferry Terminal": {
+            "name": "Port Grove Ferry Terminal",
+            "lat": -165.95445417136068,
+            "lon": 39.09221996333593,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 3
+        },
+        "37866955": {
+            "name": "Paackland City Hall",
+            "lat": -164.3360581789102,
+            "lon": 39.41241400428792,
+            "zone": "government",
+            "zone_detail": "city hall",
+            "trip_count": 2
+        },
+        "Lomark Ferry Terminal": {
+            "name": "Lomark Ferry Terminal",
+            "lat": -165.56286099848157,
+            "lon": 39.52326717231431,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 3
+        },
+        "48511194": {
+            "name": null,
+            "lat": -165.6003499240121,
+            "lon": 39.55045654962996,
+            "zone": "commercial",
+            "zone_detail": null,
+            "trip_count": 2
+        },
+        "48580702": {
+            "name": null,
+            "lat": -165.59964180138792,
+            "lon": 39.550885245266905,
+            "zone": "commercial",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "35889122": {
+            "name": null,
+            "lat": -165.69023073674674,
+            "lon": 39.004597552589075,
+            "zone": "residential",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "35885796": {
+            "name": null,
+            "lat": -165.67928633674674,
+            "lon": 38.99644715258907,
+            "zone": "industrial",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "Haacklee Ferry Terminal": {
+            "name": "Haacklee Ferry Terminal",
+            "lat": -165.69052499370062,
+            "lon": 38.98619322533421,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 7
+        },
+        "37826661": {
+            "name": "Paackland Post Office",
+            "lat": -164.37123305208138,
+            "lon": 39.42202773680567,
+            "zone": "government",
+            "zone_detail": "post office",
+            "trip_count": 1
+        },
+        "36988137": {
+            "name": "Harbor Bistro",
+            "lat": -165.95607396535178,
+            "lon": 39.09538178424596,
+            "zone": "commercial",
+            "zone_detail": "restaurant",
+            "trip_count": 1
+        },
+        "12629409643": {
+            "name": null,
+            "lat": -165.59197117413012,
+            "lon": 39.555853129130476,
+            "zone": "industrial",
+            "zone_detail": null,
+            "trip_count": 1
+        },
+        "582184557": {
+            "name": "Pacific Nature Bureau",
+            "lat": -164.56334829936853,
+            "lon": 39.27182934781,
+            "zone": "government",
+            "zone_detail": "environmental",
+            "trip_count": 1
+        },
+        "South Paackland Ferry Terminal": {
+            "name": "South Paackland Ferry Terminal",
+            "lat": -164.5617706590138,
+            "lon": 39.085916893028504,
+            "zone": "government",
+            "zone_detail": null,
+            "trip_count": 5
+        },
+        "48475647": {
+            "name": "Lomark Civic Plaza",
+            "lat": -165.59719356711753,
+            "lon": 39.521992579121736,
+            "zone": "government",
+            "zone_detail": "city hall",
+            "trip_count": 1
+        }
+    }
+}

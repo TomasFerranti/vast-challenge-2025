@@ -1,0 +1,460 @@
+{
+  "sentiments": {
+    "Seal": [
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_7_Initial_Views_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_8_Expand_Ideas_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Report"
+      },
+      {
+        "sentiment": 0.2,
+        "reason": "Appreciates historical recognition but sees limited practical benefit.",
+        "industry": "",
+        "source": "statue_john_smoth_Travel_The_Bait_Stich_Discussion"
+      },
+      {
+        "sentiment": 0.2,
+        "reason": "Appreciates historical recognition but sees limited practical benefit.",
+        "industry": "",
+        "source": "statue_john_smoth_Travel_The_Bait_Stich"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Balanced view on new technology applications.",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Meeting_1_Introduction"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions_Completed_Discussion_Crane"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_8_Report_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_8_Report"
+      }
+    ],
+    "Simone Kat": [
+      {
+        "sentiment": 0.5,
+        "reason": "Supports tourism growth",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions_Discussion_Tourist"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Supports tourism growth",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Supports tourism growth",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions_Completed_Discussion_Tourist"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Primarily benefits large vessel operations, with limited relevance to tourism",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Travel_Blue_Wave_Shipping_Discussion"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Primarily benefits large vessel operations, with limited relevance to tourism",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Travel_Blue_Wave_Shipping"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Primarily benefits large vessel operations, with limited relevance to tourism",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Travel_Blue_Wave_Shipping_Completed_Discussion"
+      },
+      {
+        "sentiment": -0.1,
+        "reason": "Would rather see money go to tourism initiatives",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Travel_Bay_Harvest_Corporation_Discussion"
+      },
+      {
+        "sentiment": -0.1,
+        "reason": "Would rather see money go to tourism initiatives",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Travel_Bay_Harvest_Corporation"
+      },
+      {
+        "sentiment": -0.1,
+        "reason": "Would rather see money go to tourism initiatives",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Travel_Bay_Harvest_Corporation_Completed_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Builders_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Builders"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Haacklee_Assembly_Co_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Haacklee_Assembly_Co"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Builders_Completed_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports small-scale operations, which align with small vessel activities and tourism. Tourism is increasingly focused on small scale pictureque fishing",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Haacklee_Assembly_Co_Completed_Discussion"
+      },
+      {
+        "sentiment": -1,
+        "reason": "Conflicts with tourism-focused short-term rentals",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Waveside_Townhomes_Discussion"
+      },
+      {
+        "sentiment": -1,
+        "reason": "Conflicts with tourism-focused short-term rentals",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Waveside_Townhomes"
+      },
+      {
+        "sentiment": -1,
+        "reason": "Conflicts with tourism-focused short-term rentals",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_7_Debate_Discussion"
+      },
+      {
+        "sentiment": -1,
+        "reason": "Conflicts with tourism-focused short-term rentals",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_7_Debate"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Symbolic gesture with no direct impact on tourism or vessel operations.",
+        "industry": "",
+        "source": "name_inspection_office_Meeting_8_Proposal_Discussion"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Symbolic gesture with no direct impact on tourism or vessel operations.",
+        "industry": "",
+        "source": "name_inspection_office_Travel_Lomark_Civic_Plaza_Completed_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could be a major attraction, benefiting tourism.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_10_Initial_Ideas_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could be a major attraction, benefiting tourism.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_10_Initial_Ideas"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could be a major attraction, benefiting tourism.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_12_Detailed_Proposal_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could be a major attraction, benefiting tourism.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_12_Detailed_Proposal"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Sees great potential in drawing tourists and celebrating local cuisine.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_1_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Sees great potential in drawing tourists and celebrating local cuisine.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_1_Feasibility"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Sees great potential in drawing tourists and celebrating local cuisine.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_2_Feedback"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Sees great potential in drawing tourists and celebrating local cuisine.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_3_Take_Action_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Sees great potential in drawing tourists and celebrating local cuisine.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_3_Take_Action"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_7_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_7_Outline"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Travel_Captain_Market_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Travel_Captain_Market"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_8_Proposal_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_8_Proposal"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Travel_Captain_Market_Completed_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_9_Report_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_9_Report"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_9_Take_Action_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Believes it will enhance the cultural appeal and attract more visitors.",
+        "industry": "tourism",
+        "source": "heritage_walking_tour_Meeting_9_Take_Action"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it aligns well with tourism and local economic growth.",
+        "industry": "tourism",
+        "source": "waterfront_market_Meeting_7_Discussion"
+      }
+    ],
+    "Carol Limpet": [
+      {
+        "sentiment": 0.5,
+        "reason": "Symbolic gesture that could attract tourists and improve community pride.",
+        "industry": "",
+        "source": "renaming_park_himark_Travel_Himark_City_Hall_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Symbolic gesture that could attract tourists and improve community pride.",
+        "industry": "",
+        "source": "renaming_park_himark_Travel_Himark_City_Hall"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Symbolic gesture that could attract tourists and improve community pride.",
+        "industry": "",
+        "source": "renaming_park_himark_Meeting_5_Nominations_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Symbolic gesture that could attract tourists and improve community pride.",
+        "industry": "",
+        "source": "renaming_park_himark_Meeting_5_Nominations"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Symbolic gesture that could attract tourists and improve community pride.",
+        "industry": "",
+        "source": "renaming_park_himark_Travel_Himark_City_Hall_Completed_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_10_Initial_Ideas_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_10_Initial_Ideas"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Travel_Tropics_Environmental_Hub_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Travel_Tropics_Environmental_Hub"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_11_Feedback_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_11_Feedback"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Sees educational value but concerned about sustainable funding.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Travel_Tropics_Environmental_Hub_Completed_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it offers community and economic benefits.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_1_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it offers community and economic benefits.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it offers community and economic benefits.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it offers community and economic benefits.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Meeting_2_Feedback_Discussion"
+      },
+      {
+        "sentiment": 0.75,
+        "reason": "Supports as it offers community and economic benefits.",
+        "industry": "small vessel/tourism",
+        "source": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame_Completed_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it aligns with community and economic interests.",
+        "industry": "tourism",
+        "source": "waterfront_market_Meeting_7_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it aligns with community and economic interests.",
+        "industry": "tourism",
+        "source": "waterfront_market_Travel_Harbor_Edge_Grill_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it aligns with community and economic interests.",
+        "industry": "tourism",
+        "source": "waterfront_market_Travel_Harbor_Edge_Grill"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it aligns with community and economic interests.",
+        "industry": "tourism",
+        "source": "waterfront_market_Travel_Harbor_Edge_Grill_Completed_Discussion"
+      }
+    ]
+  }
+}

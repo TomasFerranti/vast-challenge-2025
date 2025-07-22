@@ -1,0 +1,298 @@
+{
+  "sentiments": {
+    "Teddy Goldstein": [
+      {
+        "sentiment": -0.5,
+        "reason": "Prefers resources to be allocated toward the fishing industry.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_12_Environmental_Impact_Report"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Useful for fishing operations but may have environmental concerns.",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Meeting_3_Report_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports affordable housing for workers.",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Tidewater_Flats"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Essential for improving efficiency in fishing operations.",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Meeting_5_Cost_Impact_Report"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Seen as prioritizing tourism over fishing-related infrastructure.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Essential for improving efficiency in fishing operations.",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Meeting_8_Share_Findings"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Seen as prioritizing tourism over fishing-related infrastructure.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Report"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Seen as prioritizing tourism over fishing-related infrastructure.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_10_Report_Update_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports affordable housing for workers.",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Tidewater_Flats_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Essential for improving efficiency in fishing operations.",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Meeting_8_Share_Findings_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports affordable housing for workers.",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Tidewater_Flats_Completed_Discussion"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Seen as prioritizing tourism over fishing-related infrastructure.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_11_Report_Update_Discussion"
+      },
+      {
+        "sentiment": -0.5,
+        "reason": "Prefers resources to be allocated toward the fishing industry.",
+        "industry": "tourism",
+        "source": "marine_life_deck_Meeting_12_Environmental_Impact_Report_Discussion"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Useful for fishing operations but may have environmental concerns.",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Meeting_3_Report"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Useful for fishing operations but may have environmental concerns.",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Meeting_1_Introduction_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Essential for improving efficiency in fishing operations.",
+        "industry": "large vessel",
+        "source": "new_crane_lomark_Meeting_5_Cost_Impact_Report_Discussion"
+      }
+    ],
+    "Seal": [
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_8_Report"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions_Completed_Discussion_Crane"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_9_Report"
+      },
+      {
+        "sentiment": 0.2,
+        "reason": "Appreciates historical recognition but sees limited practical benefit.",
+        "industry": "",
+        "source": "statue_john_smoth_Travel_The_Bait_Stich_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_7_Initial_Views_Discussion"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Balanced view on new technology applications.",
+        "industry": "large vessel",
+        "source": "fish_vacuum_Meeting_1_Introduction"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_8_Report_Discussion"
+      },
+      {
+        "sentiment": 0.2,
+        "reason": "Appreciates historical recognition but sees limited practical benefit.",
+        "industry": "",
+        "source": "statue_john_smoth_Travel_The_Bait_Stich"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Seems like headache, but if other people are willing to do the work.",
+        "industry": "tourism",
+        "source": "expanding_tourist_wharf_Meeting_8_Expand_Ideas_Discussion"
+      },
+      {
+        "sentiment": 0.1,
+        "reason": "Recognizes the crane's benefit to small-scale operations.",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Travel_Harbor_Route_Solutions_Discussion"
+      }
+    ],
+    "Ed Helpsford": [
+      {
+        "sentiment": 0.5,
+        "reason": "Believes concerts can bring community together but cautious about potential disruptions.",
+        "industry": "tourism",
+        "source": "concert_Meeting_7_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Beneficial for small time fishers, who he feels are often overlooked",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_3_Proposal_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_10_Travel_Findings_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could benefit small vessel",
+        "industry": "tourism",
+        "source": "waterfront_market_Meeting_9_Report_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Travel_Waveside_Townhomes_Completed_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could benefit small vessel",
+        "industry": "tourism",
+        "source": "waterfront_market_Meeting_7_Benefits_Feasibility"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Believes concerts can bring community together but cautious about potential disruptions.",
+        "industry": "tourism",
+        "source": "concert_Meeting_16_Road_Closures"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_8_Gather_Feedback_Discussion"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Supportive but also feels it is a distraction",
+        "industry": "",
+        "source": "name_inspection_office_Meeting_9_Community_Vote_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Strongly supports as it could benefit small vessel",
+        "industry": "tourism",
+        "source": "waterfront_market_Meeting_9_Report"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_10_Housing_Proposal"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Believes concerts can bring community together but cautious about potential disruptions.",
+        "industry": "tourism",
+        "source": "concert_Meeting_7_Concert_Issues"
+      },
+      {
+        "sentiment": 0.5,
+        "reason": "Believes concerts can bring community together but cautious about potential disruptions.",
+        "industry": "tourism",
+        "source": "concert_Meeting_16_Road_Closures_Discussion"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Supportive but also feels it is a distraction",
+        "industry": "",
+        "source": "name_harbor_area_Meeting_12_Public_Opinion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_7_Debate"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Supportive but also feels it is a distraction",
+        "industry": "",
+        "source": "name_harbor_area_Meeting_12_Public_Opinion_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_7_Debate_Discussion"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Beneficial for small time fishers, who he feels are often overlooked",
+        "industry": "small vessel",
+        "source": "low_volume_crane_Meeting_3_Proposal"
+      },
+      {
+        "sentiment": 0,
+        "reason": "Supportive but also feels it is a distraction",
+        "industry": "",
+        "source": "name_inspection_office_Meeting_9_Community_Vote"
+      },
+      {
+        "sentiment": 1,
+        "reason": "Feels committee should be doing more for blue-collar workers. Nephew is having trouble finding housing",
+        "industry": "large vessel/small vessel",
+        "source": "affordable_housing_Meeting_8_Feedback"
+      }
+    ]
+  }
+}

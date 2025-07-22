@@ -1,0 +1,115 @@
+{
+    "topics_places": [
+        {
+            "topic": "Expanding the tourist wharf/infrastructure in Haacklee",
+            "id": "expanding_tourist_wharf",
+            "places": [
+                "Harbor Route Solutions"
+            ]
+        },
+        {
+            "topic": "Statue to honor John Smoth in Port Grove",
+            "id": "statue_john_smoth",
+            "places": [
+                "The Bait & Stich"
+            ]
+        },
+        {
+            "topic": "Deep maintenance to the commercial fishing dock at Himark",
+            "id": "deep_fishing_dock",
+            "places": [
+                "High Seas Fishing Inc."
+            ]
+        },
+        {
+            "topic": "Money for a new crane at Lomark",
+            "id": "new_crane_lomark",
+            "places": [
+                "Blue Wave Shipping"
+            ]
+        },
+        {
+            "topic": "Fish Vacuum",
+            "id": "fish_vacuum",
+            "places": [
+                "Bay Harvest Corporation"
+            ]
+        },
+        {
+            "topic": "Low-volume unload crane in Haacklee",
+            "id": "low_volume_crane",
+            "places": [
+                "Haacklee Assembly Co.",
+                "Harbor Builders",
+                "Harbor Route Solutions"
+            ]
+        },
+        {
+            "topic": "Affordable housing for fishing workers (conflict with short-term rentals)",
+            "id": "affordable_housing",
+            "places": [
+                "Tidewater Flats",
+                "Waveside Townhomes"
+            ]
+        },
+        {
+            "topic": "Renaming a park in Himark",
+            "id": "renaming_park_himark",
+            "places": [
+                "Anchor Way Grill",
+                "Himark City Hall",
+                "Sailor's Perch Light"
+            ]
+        },
+        {
+            "topic": "Putting a name on pictureque harbor area in Port Grove",
+            "id": "name_harbor_area",
+            "places": [
+                "The Bait & Stich"
+            ]
+        },
+        {
+            "topic": "Putting a name on the inspection office in Lomark",
+            "id": "name_inspection_office",
+            "places": [
+                "Lomark Civic Plaza"
+            ]
+        },
+        {
+            "topic": "Establishing a Marine Life Observation Deck in Centralia",
+            "id": "marine_life_deck",
+            "places": [
+                "Tropics Environmental Hub"
+            ]
+        },
+        {
+            "topic": "Hosting an Annual Seafood Festival in Paackland",
+            "id": "seafood_festival",
+            "places": [
+                "Dock & Roll Hall of Fame"
+            ]
+        },
+        {
+            "topic": "Developing a Heritage Walking Tour in Haacklee",
+            "id": "heritage_walking_tour",
+            "places": [
+                "Captain's Market"
+            ]
+        },
+        {
+            "topic": "Establishing a Waterfront Market in Haacklee",
+            "id": "waterfront_market",
+            "places": [
+                "Harbor's Edge Grill",
+                "Harborfront Market"
+            ]
+        },
+        {
+            "topic": "Plan for Concert",
+            "id": "concert",
+            "places": [
+                "Paakland Elementary"
+            ]
+        }
+    ]
+}

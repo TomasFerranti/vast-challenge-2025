@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/map_timeline.css') }}"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.js"></script>
+</head>
+<body>
+    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+        <marker
+        id="triangle"
+        viewBox="0 0 10 10"
+        refX="1"
+        refY="5"
+        markerUnits="strokeWidth"
+        markerWidth="3"
+        markerHeight="3"
+        orient="auto">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#f00" />
+        </marker>
+    </defs>
+    </svg>
+
+    <div id="people" style="text-align: center; margin-bottom: 20px;"></div>
+    <div class="chart-container" style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; flex: 1;">
+            <div style="display: flex; flex-direction: column;">
+                <div id="timeline-1"></div>
+                <div id="timeline-2"></div>
+                <div id="timeline-3"></div>
+            </div>
+        </div>
+        <div style="flex: 1;">
+            <div id="geojson-map"></div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/people.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/map_timeline.js') }}"></script>
+
+    <div id="tooltip"></div>
+
+</body>
+</html> 

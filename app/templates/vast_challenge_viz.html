@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/vast_challenge.css') }}"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.js"></script>
+
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+<defs>
+    <marker
+    id="triangle"
+    viewBox="0 0 10 10"
+    refX="1"
+    refY="5"
+    markerUnits="strokeWidth"
+    markerWidth="4"
+    markerHeight="4"
+    orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#f00" />
+    </marker>
+</defs>
+</svg>
+
+<div style="margin: 20px; text-align: center;">
+    <button id="toggle-view-btn">Comparing Person by Datasets</button>
+</div>
+
+<div id="left-view" style="display: flex; flex-direction: row; height: 100vh;">
+    <!-- LEFT PANEL: dataset selector and person rows with full-size visualizations -->
+    <div id="left-panel" style="flex: 1 1 0%; min-width: 500px; border-right: 1px solid #ccc; padding: 20px; overflow-y: auto;">
+        <div class="chart-container" style="box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); border-radius: 15px; background: #fff;">
+            <div id="dataset-selector" style="margin-bottom: 24px;">
+                <button class="dataset-btn" data-dataset="journalist">Journalist</button>
+                <button class="dataset-btn" data-dataset="filah">FILAH</button>
+                <button class="dataset-btn" data-dataset="trout">TROUT</button>
+            </div>
+            <div id="person-viz-list">
+                <!-- JS will fill: one row per person, each with normal meetings, scatter, timeline -->
+            </div>
+        </div>
+    </div>
+</div>
+<div id="right-view" style="display: none;">
+    <!-- RIGHT PANEL: grid layout for meeting, scatter, timeline -->
+    <div id="right-panel" style="flex: 1 1 0%; min-width: 500px; padding: 20px; overflow-x: auto;">
+        <div class="chart-container">
+            <div id="people"></div>
+            <div id="right-viz-grid"
+                style="
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto auto auto;
+                    gap: 32px 32px;
+                    width: 100%;
+                    margin-top: 16px;
+                ">
+                <div id="meeting-1" style="grid-column: 1; grid-row: 1;"></div>
+                <div id="scatter-1" style="grid-column: 2; grid-row: 1;"></div>
+                <div id="meeting-2" style="grid-column: 1; grid-row: 2;"></div>
+                <div id="scatter-2" style="grid-column: 2; grid-row: 2;"></div>
+                <div id="meeting-3" style="grid-column: 1; grid-row: 3;"></div>
+                <div id="scatter-3" style="grid-column: 2; grid-row: 3;"></div>
+            </div>
+            <div id="meetings-legend" style="margin-top:20px;"></div>
+            <div id="meetings-viz" style="margin-top:10px;"></div>
+            <!-- New visualization area -->
+            <div id="topic-visualization-container" style="margin-top:30px;">
+                <div>
+                    <label for="topic-selector"><b>Select Topic:</b></label>
+                    <select id="topic-selector"></select>
+                </div>
+                <div style="display: flex; gap: 40px; margin-top: 18px;">
+                    <div id="topic-participants" style="min-width: 220px;"></div>
+                    <div id="topic-places" style="min-width: 320px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden containers for the map and timelines that JS will populate -->
+<div id="geojson-map" style="display: none;"></div>
+<div id="timeline-1" style="display: none;"></div>
+<div id="timeline-2" style="display: none;"></div>
+<div id="timeline-3" style="display: none;"></div>
+
+<script src="{{ url_for('static', filename='js/people.js') }}"></script>
+<script src="{{ url_for('static', filename='js/sentiment_scatter.js') }}"></script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+<script src="{{ url_for('static', filename='js/topics.js') }}"></script>
+<script src="{{ url_for('static', filename='js/topic_visualization.js') }}"></script>
+<script>
+    document.getElementById('toggle-view-btn').addEventListener('click', function() {
+        const leftView = document.getElementById('left-view');
+        const rightView = document.getElementById('right-view');
+        if (leftView.style.display !== 'none') {
+            leftView.style.display = 'none';
+            rightView.style.display = 'block';
+            this.textContent = 'Dataset Persons Overview';
+        } else {
+            leftView.style.display = 'block';
+            rightView.style.display = 'none';
+            this.textContent = 'Compariong Person by Datasets';
+        }
+    });
+
+    // Expose global functions for coordination
+    window.updateTrips = updateTrips;
+</script>
+<div id="tooltip"></div>
+{% endblock %} 

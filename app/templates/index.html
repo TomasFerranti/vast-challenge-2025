@@ -18,19 +18,44 @@
     </div>
 
     <div class="visualizations-grid">
-        {% for viz in visualizations %}
         <div class="visualization-card">
             <div class="card-header">
-                <h3>{{ viz.title }}</h3>
+                <h3>Interactive VAST Challenge Visualization</h3>
             </div>
             <div class="card-body">
-                <p class="card-description">{{ viz.description }}</p>
+                <p class="card-description">
+                    Interactive data visualization combining people, sentiments, meetings, topics, and geographic data. 
+                    Features dataset comparison, person-specific analysis, and multi-dimensional exploration of committee activities.
+                </p>
                 <div class="card-actions">
-                    <a href="/viz/{{ viz.name }}" class="btn btn-primary">View Visualization</a>
+                    <a href="/viz/vast_challenge_viz" class="btn btn-primary">View Visualization</a>
                 </div>
             </div>
         </div>
-        {% endfor %}
+        
+        <div class="visualization-card">
+            <div class="card-header">
+                <h3>Visualization 2</h3>
+            </div>
+            <div class="card-body">
+                <p class="card-description">Second visualization - coming soon</p>
+                <div class="card-actions">
+                    <a href="/viz/visualization_2" class="btn btn-primary">View Visualization</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="visualization-card">
+            <div class="card-header">
+                <h3>Visualization 3</h3>
+            </div>
+            <div class="card-body">
+                <p class="card-description">Third visualization - coming soon</p>
+                <div class="card-actions">
+                    <a href="/viz/visualization_3" class="btn btn-primary">View Visualization</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="data-info">

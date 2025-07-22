@@ -1,0 +1,94 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#graphContainer {
+    width: 1024px;
+    height: 768px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+
+/* Links */
+#graphGroup line {
+    fill: none;
+    transition: stroke-width 0.3s ease-in-out, stroke-opacity 0.3s ease-in-out, stroke 0.3s ease-in-out;
+}
+
+#graphGroup line.layer-0 {
+    stroke: black;
+    stroke-width: 2;
+    stroke-opacity: 0.6
+}
+
+#graphGroup line.layer-1 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.1;
+    /*filter: blur(2px);*/
+}
+
+#graphGroup line.layer-2 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.05;
+    /*filter: blur(4px);*/
+}
+
+#graphGroup line.layer-3 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.02;
+    /*filter: blur(8px);*/
+}
+
+/* Nodes */
+#graphGroup circle {
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out, filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#graphGroup circle.layer-0 {
+    r: 10px;
+    stroke: #222;
+    stroke-width: 2;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.7));
+}
+#graphGroup circle.layer-1 {
+    r: 7px;
+    stroke: #222;
+    stroke-width: 0;
+    /*filter: blur(4px);*/
+}
+#graphGroup circle.layer-2 {
+    r: 2px;
+    stroke: #222;
+    stroke-width: 0;
+    /*filter: blur(8px);*/
+}
+#graphGroup circle.layer-3 {
+    r: 1px;
+    stroke: #222;
+    stroke-width: 0;
+    /*filter: blur(16px);*/
+} 

@@ -1,0 +1,320 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="header">
+        <h1>{{ title }}</h1>
+        <p class="lead">{{ description }}</p>
+    </div>
+    
+    <div class="graph-content" style="display: flex; height: 80vh;">
+        <div id="legendContainer" style="position: absolute;"></div>
+        <div style="flex: 1;" id="graphSide">
+            <div id="graphContainer"></div>
+        </div>
+        <div style="flex: 0 0 300px; display: flex; flex-direction: column; align-items: flex-start; padding: 20px; gap: 10px; background: white; border-left: 1px solid #ddd;" id="controlsSide">
+            
+            <label for="datasetSelect"><strong>Base Dataset:</strong></label>
+            <select id="datasetSelect" onchange="loadDataset(this.value)" class="form-control">
+                <option value="0">Journalist (Complete)</option>
+                <option value="1">TROUT</option>
+                <option value="2">FILAH</option>
+            </select>
+            
+            <hr style="width: 100%; margin: 10px 0;">
+            
+            <label><strong>Layer Filters:</strong></label>
+            <select id="layerSelect1" class="form-control">
+                <option value="meeting">meeting</option>
+                <option value="entity.person">entity.person</option>
+                <option value="entity.organization">entity.organization</option>
+                <option value="topic">topic</option>
+                <option value="discussion">discussion</option>
+                <option value="plan">plan</option>
+                <option value="none">none</option>
+                <option value="place">place</option>
+            </select>
+
+            <select id="layerSelect2" class="form-control">
+                <option value="meeting">meeting</option>
+                <option value="entity.person">entity.person</option>
+                <option value="entity.organization">entity.organization</option>
+                <option value="topic">topic</option>
+                <option value="discussion">discussion</option>
+                <option value="plan">plan</option>
+                <option value="none">none</option>
+                <option value="place">place</option>
+            </select>
+
+            <select id="layerSelect3" class="form-control">
+                <option value="meeting">meeting</option>
+                <option value="entity.person">entity.person</option>
+                <option value="entity.organization">entity.organization</option>
+                <option value="topic">topic</option>
+                <option value="discussion">discussion</option>
+                <option value="plan">plan</option>
+                <option value="none">none</option>
+                <option value="place">place</option>
+                <option value=""></option>
+            </select>
+
+            <input type="button" id="toggleButton" value="Apply Layers" onclick="
+                const v1 = document.getElementById('layerSelect1').value;
+                const v2 = document.getElementById('layerSelect2').value;
+                const v3 = document.getElementById('layerSelect3').value;
+                updateLayer([v1, v2, v3]);
+            " class="btn btn-primary"/>
+
+            <hr style="width: 100%; margin: 10px 0;">
+
+            <label><strong>Highlight Dataset:</strong></label>
+            <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+                <input type="button" value="Show All" onclick="highlight('all')" class="btn btn-sm btn-outline-secondary">
+                <input type="button" id="highlightTrout" value="TROUT Only" onclick="highlight('trout')" class="btn btn-sm btn-outline-info">
+                <input type="button" id="highlightFilah" value="FILAH Only" onclick="highlight('filah')" class="btn btn-sm btn-outline-warning">
+                <input type="button" id="highlightJournalist" value="Journalist Only" onclick="highlight('journalist')" class="btn btn-sm btn-outline-success" style="display: none;">
+            </div>
+
+            <hr style="width: 100%; margin: 10px 0;">
+
+            <label><strong>Color by Attribute:</strong></label>
+            <input type="button" value="Color discussion by industry" onclick="colorNode('discussion', 'industry')" class="btn btn-sm btn-outline-primary"/>
+            <input type="button" value="Color plan by industry" onclick="colorNode('plan', 'industry')" class="btn btn-sm btn-outline-primary"/>
+            <input type="button" value="Color topic by industry" onclick="colorNode('topic', 'industry')" class="btn btn-sm btn-outline-primary"/>
+            <input type="button" value="Color plan by plan_type" onclick="colorNode('plan', 'plan_type')" class="btn btn-sm btn-outline-secondary"/>
+            <input type="button" value="Color person by role" onclick="colorNode('entity.person', 'role')" class="btn btn-sm btn-outline-secondary"/>
+            <input type="button" value="Color place by zone" onclick="colorNode('place', 'zone')" class="btn btn-sm btn-outline-secondary"/>
+
+            <hr style="width: 100%; margin: 10px 0;">
+
+            <label>
+                <input type="checkbox" id="labelsToggle" checked onchange="toggleLabels(this.checked)">
+                Show Labels
+            </label>
+
+            <div id="tooltip"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.lead {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    opacity: 0.9;
+}
+
+.graph-content {
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    overflow: visible;
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #5a6fd8;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 11px;
+}
+
+.btn-primary {
+    background: #667eea;
+}
+
+.btn-primary:hover {
+    background: #5a6fd8;
+}
+
+.btn-outline-secondary {
+    background: transparent;
+    color: #666;
+    border: 1px solid #666;
+}
+
+.btn-outline-secondary:hover {
+    background: #666;
+    color: white;
+}
+
+.btn-outline-info {
+    background: transparent;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+
+.btn-outline-info:hover {
+    background: #17a2b8;
+    color: white;
+}
+
+.btn-outline-warning {
+    background: transparent;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.btn-outline-warning:hover {
+    background: #ffc107;
+    color: #212529;
+}
+
+.btn-outline-success {
+    background: transparent;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+.btn-outline-success:hover {
+    background: #28a745;
+    color: white;
+}
+
+.btn-outline-primary {
+    background: transparent;
+    color: #667eea;
+    border: 1px solid #667eea;
+}
+
+.btn-outline-primary:hover {
+    background: #667eea;
+    color: white;
+}
+
+/* Graph specific styles */
+#graphContainer {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+/* Links */
+#graphGroup line {
+    fill: none;
+    transition: stroke-width 0.3s ease-in-out, stroke-opacity 0.3s ease-in-out, stroke 0.3s ease-in-out;
+}
+
+#graphGroup line.layer-0 {
+    stroke: black;
+    stroke-width: 2;
+    stroke-opacity: 0.6
+}
+
+#graphGroup line.layer-1 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.1;
+}
+
+#graphGroup line.layer-2 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.05;
+}
+
+#graphGroup line.layer-3 {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-opacity: 0.02;
+}
+
+/* Nodes */
+#graphGroup circle {
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out, stroke-width 0.3s ease-in-out, filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#graphGroup circle.layer-0 {
+    r: 10px;
+    stroke: #222;
+    stroke-width: 2;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.7));
+}
+#graphGroup circle.layer-1 {
+    r: 7px;
+    stroke: #222;
+    stroke-width: 0;
+}
+#graphGroup circle.layer-2 {
+    r: 2px;
+    stroke: #222;
+    stroke-width: 0;
+}
+#graphGroup circle.layer-3 {
+    r: 1px;
+    stroke: #222;
+    stroke-width: 0;
+}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.js"></script>
+<script src="{{ url_for('static', filename='js/forces.js') }}"></script>
+<script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+
+{% endblock %} 

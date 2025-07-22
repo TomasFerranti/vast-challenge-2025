@@ -1,0 +1,1031 @@
+{
+  "topics": [
+    {
+      "id": "expanding_tourist_wharf",
+      "name": "Expanding the tourist wharf/infrastructure in Haacklee",
+      "items": [
+        {
+          "id": "expanding_tourist_wharf_Meeting_7_Initial_Views_Discussion",
+          "name": "Discuss and share initial views on expanding the tourist wharf/infrastructure",
+          "type": "discussion",
+          "attendees": [
+            "Tours Central Ticketing",
+            "Paackland Container Inc.",
+            "Seal"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions_Discussion_Tourist",
+          "name": "Discuss travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions",
+          "name": "Travel to Harbor Route Solutions in Haacklee",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions_Completed_Discussion_Tourist"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_8_Expand_Ideas_Discussion",
+          "name": "Expand on views and ideas discussed in the previous meeting",
+          "type": "discussion",
+          "attendees": [
+            "Tours Central Ticketing",
+            "Paackland Container Inc.",
+            "Seal"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Travel_Harbor_Route_Solutions_Completed_Discussion_Tourist",
+          "name": "Discuss the completed travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion",
+          "name": "Get a formal cost impact & environment report started",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_9_Report",
+          "name": "Get a formal cost impact & environment report",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "tourism",
+          "topic_name": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "statue_john_smoth",
+      "name": "Statue to honor John Smoth in Port Grove",
+      "items": [
+        {
+          "id": "statue_john_smoth_Meeting_8_Proposal_Discussion",
+          "name": "Present proposal for the statue to honor John Smoth",
+          "type": "discussion",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Meeting_8_Proposal",
+          "name": "Present proposal for the statue to honor John Smoth",
+          "type": "plan",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Travel_The_Bait_Stich_Discussion",
+          "name": "Discuss travel plans to The Bait & Stich for feedback gathering",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Travel_The_Bait_Stich",
+          "name": "Travel to The Bait & Stich",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep_fishing_dock",
+      "name": "Deep maintenance to the commercial fishing dock at Himark",
+      "items": [
+        {
+          "id": "deep_fishing_dock_Meeting_2_Importance_Discussion",
+          "name": "Discuss the importance of maintenance and allocate initial budget",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc.",
+            "Tours Central Ticketing"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Travel_High_Seas_Fishing_Inc_Discussion",
+          "name": "Discuss travel plans to High Seas Fishing Inc. in Himark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Travel_High_Seas_Fishing_Inc",
+          "name": "Travel to High Seas Fishing Inc. in Himark",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "topic_name": "deep_fishing_dock_Travel_High_Seas_Fishing_Inc_Completed_Discussion"
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_3_Maintenance_Plan_Discussion",
+          "name": "Discuss maintenance plan and designate travel representatives",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_3_Maintenance_Plan",
+          "name": "Discuss maintenance plan and designate travel representatives",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping"
+          ],
+          "topic_name": "deep_fishing_dock_Meeting_3_Maintenance_Plan_Discussion"
+        },
+        {
+          "id": "deep_fishing_dock_Travel_High_Seas_Fishing_Inc_Completed_Discussion",
+          "name": "Discuss the completed travel plans to High Seas Fishing Inc. in Himark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Findings_Report_Discussion",
+          "name": "Report on findings from dock visit",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Findings_Report",
+          "name": "Report on findings from dock visit",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping"
+          ],
+          "topic_name": "deep_fishing_dock_Meeting_4_Findings_Report_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "new_crane_lomark",
+      "name": "Money for a new crane at Lomark",
+      "items": [
+        {
+          "id": "new_crane_lomark_Meeting_4_Cost_Analysis_Discussion",
+          "name": "Present cost analysis for the new crane",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping",
+            "Tours Central Ticketing",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_4_Cost_Analysis",
+          "name": "Present cost analysis for the new crane",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping",
+            "Tours Central Ticketing",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel",
+          "topic_name": "new_crane_lomark_Meeting_4_Cost_Analysis_Discussion"
+        },
+        {
+          "id": "new_crane_lomark_Travel_Blue_Wave_Shipping_Discussion",
+          "name": "Discuss travel plans to Blue Wave Shipping in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "new_crane_lomark_Travel_Blue_Wave_Shipping",
+          "name": "Travel to Blue Wave Shipping in Lomark",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel",
+          "topic_name": "new_crane_lomark_Travel_Blue_Wave_Shipping_Completed_Discussion"
+        },
+        {
+          "id": "new_crane_lomark_Travel_Blue_Wave_Shipping_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Blue Wave Shipping in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel"
+        }
+      ]
+    },
+    {
+      "id": "fish_vacuum",
+      "name": "Fish Vacuum",
+      "items": [
+        {
+          "id": "fish_vacuum_Meeting_1_Introduction_Discussion",
+          "name": "General Introduction to what a fish vacuum is",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "fish_vacuum_Meeting_1_Introduction",
+          "name": "General Introduction to what a fish vacuum is",
+          "type": "plan",
+          "attendees": [
+            "Seal",
+            "High Seas Fishing Inc."
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "fish_vacuum_Meeting_1_Introduction_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Travel_Bay_Harvest_Corporation_Discussion",
+          "name": "Discuss travel plans to Bay Harvest Corporation in Himark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "fish_vacuum_Travel_Bay_Harvest_Corporation",
+          "name": "Travel to Bay Harvest Corporation in Himark",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel",
+          "topic_name": "fish_vacuum_Travel_Bay_Harvest_Corporation_Completed_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis_Discussion",
+          "name": "Provide cost-benefit analysis of implementing a fish vacuum",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis",
+          "name": "Provide cost-benefit analysis of implementing a fish vacuum",
+          "type": "plan",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "industry": "small vessel",
+          "topic_name": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Travel_Bay_Harvest_Corporation_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Bay Harvest Corporation in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel"
+        }
+      ]
+    },
+    {
+      "id": "low_volume_crane",
+      "name": "Low-volume unload crane in Haacklee",
+      "items": [
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions_Discussion",
+          "name": "Discuss travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions",
+          "name": "Travel to Harbor Route Solutions in Haacklee",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Travel_Harbor_Route_Solutions_Completed_Discussion_Crane"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions_Completed_Discussion_Crane",
+          "name": "Discuss the completed travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Builders_Discussion",
+          "name": "Discuss travel plans to Harbor Builders in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Builders",
+          "name": "Travel to Harbor Builders in Haacklee",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Travel_Harbor_Builders_Completed_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Travel_Haacklee_Assembly_Co_Discussion",
+          "name": "Discuss travel plans to Haacklee Assembly Co. in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Haacklee_Assembly_Co",
+          "name": "Travel to Haacklee Assembly Co. in Haacklee",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Travel_Haacklee_Assembly_Co_Completed_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Meeting_8_Report_Discussion",
+          "name": "Report on travel and submit letter of support for low-volume unload crane",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Meeting_8_Report",
+          "name": "Report on travel and submit letter of support for low-volume unload crane",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Meeting_8_Report_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Builders_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Harbor Builders in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Haacklee_Assembly_Co_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Haacklee Assembly Co. in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "small vessel"
+        }
+      ]
+    },
+    {
+      "id": "affordable_housing",
+      "name": "Affordable housing for fishing workers (conflict with short-term rentals)",
+      "items": [
+        {
+          "id": "affordable_housing_Meeting_6_Sites_Proposal_Discussion",
+          "name": "Discuss potential sites for affordable housing",
+          "type": "discussion",
+          "attendees": [
+            "Builders Association",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_6_Sites_Proposal",
+          "name": "Discuss potential sites for affordable housing",
+          "type": "plan",
+          "attendees": [
+            "Builders Association",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_6_Sites_Proposal_Discussion"
+        },
+        {
+          "id": "affordable_housing_Travel_Waveside_Townhomes_Discussion",
+          "name": "Discuss travel plans to Waveside Townhomes in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Travel_Waveside_Townhomes",
+          "name": "Travel to Waveside Townhomes in Lomark",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Travel_Waveside_Townhomes_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_7_Debate_Discussion",
+          "name": "Debate the conflict with short-term rentals",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_7_Debate",
+          "name": "Debate the conflict with short-term rentals",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_7_Debate_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_8_Gather_Feedback_Discussion",
+          "name": "Gather community feedback on housing needs",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_8_Feedback",
+          "name": "Gather community feedback on housing needs",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_8_Gather_Feedback_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_9_Invite_Developers_Discussion",
+          "name": "Invite housing developers",
+          "type": "discussion",
+          "attendees": [
+            "Builders Association",
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_9_Invite_Developers",
+          "name": "Invite housing developers",
+          "type": "plan",
+          "attendees": [
+            "Builders Association",
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_9_Invite_Developers_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "renaming_park_himark",
+      "name": "Renaming a park in Himark",
+      "items": [
+        {
+          "id": "renaming_park_himark_Meeting_4_Name_Ideas_Discussion",
+          "name": "Gather ideas for new name for the park",
+          "type": "discussion",
+          "attendees": [
+            "PTA"
+          ]
+        },
+        {
+          "id": "renaming_park_himark_Meeting_4_Name_Ideas",
+          "name": "Gather ideas for new name for the park",
+          "type": "plan",
+          "attendees": [
+            "PTA"
+          ],
+          "topic_name": "renaming_park_himark_Meeting_4_Name_Ideas_Discussion"
+        },
+        {
+          "id": "renaming_park_himark_Travel_Himark_City_Hall_Discussion",
+          "name": "Discuss travel plans to Himark City Hall",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ]
+        },
+        {
+          "id": "renaming_park_himark_Travel_Himark_City_Hall",
+          "name": "Travel to Himark City Hall",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "topic_name": "renaming_park_himark_Travel_Himark_City_Hall_Completed_Discussion"
+        },
+        {
+          "id": "renaming_park_himark_Meeting_5_Nominations_Discussion",
+          "name": "Solicit community nominations for the new park name",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ]
+        },
+        {
+          "id": "renaming_park_himark_Meeting_5_Nominations",
+          "name": "Solicit community nominations for the new park name",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "topic_name": "renaming_park_himark_Meeting_5_Nominations_Discussion"
+        },
+        {
+          "id": "renaming_park_himark_Travel_Himark_City_Hall_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Himark City Hall",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "name_harbor_area",
+      "name": "Putting a name on pictureque harbor area in Port Grove",
+      "items": [
+        {
+          "id": "name_harbor_area_Meeting_10_Historical_Significance_Discussion",
+          "name": "Provide historical significance for naming the customs office",
+          "type": "discussion",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        },
+        {
+          "id": "name_harbor_area_Meeting_10_Historical_Significance",
+          "name": "Provide historical significance for naming the customs office",
+          "type": "plan",
+          "attendees": [
+            "Daughters of Port Grove"
+          ],
+          "topic_name": "name_harbor_area_Meeting_10_Historical_Significance_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "name_inspection_office",
+      "name": "Putting a name on the inspection office in Lomark",
+      "items": [
+        {
+          "id": "name_inspection_office_Meeting_8_Importance_Discussion",
+          "name": "Discuss the importance of naming the inspection office",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ]
+        },
+        {
+          "id": "name_inspection_office_Meeting_8_Importance",
+          "name": "Discuss the importance of naming the inspection office",
+          "type": "plan",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "topic_name": "name_inspection_office_Meeting_8_Importance_Discussion"
+        },
+        {
+          "id": "name_inspection_office_Meeting_8_Proposal_Discussion",
+          "name": "Propose potential names based on feedback",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ]
+        },
+        {
+          "id": "name_inspection_office_Travel_Lomark_Civic_Plaza",
+          "name": "Travel to Lomark Civic Plaza",
+          "type": "plan",
+          "attendees": [],
+          "topic_name": "name_inspection_office_Travel_Lomark_Civic_Plaza_Completed_Discussion"
+        },
+        {
+          "id": "name_inspection_office_Travel_Lomark_Civic_Plaza_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Lomark Civic Plaza",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marine_life_deck",
+      "name": "Establishing a Marine Life Observation Deck in Centralia",
+      "items": [
+        {
+          "id": "marine_life_deck_Meeting_10_Initial_Ideas_Discussion",
+          "name": "Discuss initial ideas and viability of a marine life observation deck",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat",
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "marine_life_deck_Meeting_10_Initial_Ideas",
+          "name": "Discuss initial ideas and viability of a marine life observation deck",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat",
+            "Carol Limpet"
+          ],
+          "industry": "tourism",
+          "topic_name": "marine_life_deck_Meeting_10_Initial_Ideas_Discussion"
+        },
+        {
+          "id": "marine_life_deck_Travel_Tropics_Environmental_Hub_Discussion",
+          "name": "Discuss travel plans to Tropics Environmental Hub in Centralia",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "marine_life_deck_Travel_Tropics_Environmental_Hub",
+          "name": "Travel to Tropics Environmental Hub in Centralia",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism",
+          "topic_name": "marine_life_deck_Travel_Tropics_Environmental_Hub_Completed_Discussion"
+        },
+        {
+          "id": "marine_life_deck_Meeting_11_Feedback_Discussion",
+          "name": "Gather initial feedback from local businesses and community members",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "marine_life_deck_Meeting_11_Feedback",
+          "name": "Gather initial feedback from local businesses and community members",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism",
+          "topic_name": "marine_life_deck_Meeting_11_Feedback_Discussion"
+        },
+        {
+          "id": "marine_life_deck_Travel_Tropics_Environmental_Hub_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Tropics Environmental Hub in Centralia",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "marine_life_deck_Meeting_12_Detailed_Proposal_Discussion",
+          "name": "Formulate a detailed proposal for the observation deck based on feedback",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "marine_life_deck_Meeting_12_Detailed_Proposal",
+          "name": "Formulate a detailed proposal for the observation deck based on feedback",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "marine_life_deck_Meeting_12_Detailed_Proposal_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "seafood_festival",
+      "name": "Hosting an Annual Seafood Festival in Paackland",
+      "items": [
+        {
+          "id": "seafood_festival_Meeting_1_Discussion",
+          "name": "Discuss the feasibility and benefits of hosting an annual seafood festival",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat",
+            "Carol Limpet"
+          ],
+          "industry": "tourism/small vessel"
+        },
+        {
+          "id": "seafood_festival_Meeting_1_Feasibility",
+          "name": "Discuss the feasibility and benefits of hosting an annual seafood festival",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism/small vessel",
+          "topic_name": "seafood_festival_Meeting_1_Discussion"
+        },
+        {
+          "id": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame_Discussion",
+          "name": "Discuss travel plans to Dock & Roll Hall of Fame in Paackland",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism/small vessel"
+        },
+        {
+          "id": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame",
+          "name": "Travel to Dock & Roll Hall of Fame in Paackland",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism/small vessel",
+          "topic_name": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame_Completed_Discussion"
+        },
+        {
+          "id": "seafood_festival_Meeting_2_Feedback_Discussion",
+          "name": "Gather feedback from local businesses and potential vendors",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism/small vessel"
+        },
+        {
+          "id": "seafood_festival_Meeting_2_Feedback",
+          "name": "Gather feedback from local businesses and potential vendors",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism/small vessel",
+          "topic_name": "seafood_festival_Meeting_2_Feedback_Discussion"
+        },
+        {
+          "id": "seafood_festival_Travel_Dock_Roll_Hall_of_Fame_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Dock & Roll Hall of Fame in Paackland",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism/small vessel"
+        },
+        {
+          "id": "seafood_festival_Meeting_3_Take_Action_Discussion",
+          "name": "Coordinate with local authorities to secure necessary permits and finalize plans",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism/small vessel"
+        },
+        {
+          "id": "seafood_festival_Meeting_3_Take_Action",
+          "name": "Coordinate with local authorities to secure necessary permits and finalize plans",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism/small vessel",
+          "topic_name": "seafood_festival_Meeting_3_Take_Action_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "heritage_walking_tour",
+      "name": "Developing a Heritage Walking Tour in Haacklee",
+      "items": [
+        {
+          "id": "heritage_walking_tour_Meeting_7_Discussion",
+          "name": "Discuss and outline the proposed heritage walking tour route and main landmarks",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat",
+            "Daughters of Port Grove"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_7_Outline",
+          "name": "Discuss and outline the proposed heritage walking tour route and main landmarks",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat",
+            "Daughters of Port Grove"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Meeting_7_Discussion"
+        },
+        {
+          "id": "heritage_walking_tour_Travel_Captain_Market_Discussion",
+          "name": "Discuss travel plans to Captain's Market",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Travel_Captain_Market",
+          "name": "Travel to Captain's Market",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Travel_Captain_Market_Completed_Discussion"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_8_Proposal_Discussion",
+          "name": "Gather community feedback on the proposed route and sites of interest",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_8_Proposal",
+          "name": "Gather community feedback on the proposed route and sites of interest",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Meeting_8_Proposal_Discussion"
+        },
+        {
+          "id": "heritage_walking_tour_Travel_Captain_Market_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Captain's Market",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_9_Report_Discussion",
+          "name": "Present detailed plans, including route maps and tour scripts",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_9_Report",
+          "name": "Present detailed plans, including route maps and tour scripts",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Meeting_9_Report_Discussion"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_9_Take_Action_Discussion",
+          "name": "Coordinate with local businesses and finalize the logistics for the walking tour",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_9_Take_Action",
+          "name": "Coordinate with local businesses and finalize the logistics for the walking tour",
+          "type": "plan",
+          "attendees": [
+            "Simone Kat"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Meeting_9_Take_Action_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "waterfront_market",
+      "name": "Establishing a Waterfront Market in Haacklee",
+      "items": [
+        {
+          "id": "waterfront_market_Meeting_7_Discussion",
+          "name": "Discuss the benefits and feasibility of establishing a waterfront market",
+          "type": "discussion",
+          "attendees": [
+            "Simone Kat",
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "waterfront_market_Travel_Harbor_Edge_Grill_Discussion",
+          "name": "Discuss travel plans to Harbor's Edge Grill in Paackland",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "waterfront_market_Travel_Harbor_Edge_Grill",
+          "name": "Travel to Harbor's Edge Grill in Paackland",
+          "type": "plan",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism",
+          "topic_name": "waterfront_market_Travel_Harbor_Edge_Grill_Completed_Discussion"
+        },
+        {
+          "id": "waterfront_market_Travel_Harbor_Edge_Grill_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Harbor's Edge Grill in Paackland",
+          "type": "discussion",
+          "attendees": [
+            "Carol Limpet"
+          ],
+          "industry": "tourism"
+        }
+      ]
+    }
+  ],
+  "industries": [
+    {"id": "tourism", "color": "#ffd70e"},
+    {"id": "large vessel", "color": "#06143b"},
+    {"id": "small vessel", "color": "#0effeb"},
+    {
+      "id": "large vessel/small vessel",
+      "color": "#0e6eff"
+    },
+    {
+      "id": "",
+      "color": "#f5f0f0"
+    },
+    {
+      "id": "small vessel/tourism",
+      "color": "#3aff0e"
+    },
+    {
+      "id": "tourism/small vessel",
+      "color": "#3aff0e"
+    }
+  ]
+}

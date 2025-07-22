@@ -1,0 +1,786 @@
+{
+  "topics": [
+    {
+      "id": "marine_life_deck",
+      "name": "Establishing a Marine Life Observation Deck in Centralia",
+      "items": [
+        {
+          "id": "marine_life_deck_Meeting_12_Environmental_Impact_Report",
+          "name": "Present findings from the environmental impact study",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "tourism",
+          "topic_name": "marine_life_deck_Meeting_12_Environmental_Impact_Report_Discussion"
+        },
+        {
+          "id": "marine_life_deck_Meeting_12_Environmental_Impact_Report_Discussion",
+          "name": "Present findings from the environmental impact study",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "name_harbor_area",
+      "name": "Putting a name on pictureque harbor area in Port Grove",
+      "items": [
+        {
+          "id": "name_harbor_area_Meeting_10_Historical_Significance_Discussion",
+          "name": "Provide historical significance for naming the customs office",
+          "type": "discussion",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        },
+        {
+          "id": "name_harbor_area_Meeting_10_Historical_Significance",
+          "name": "Provide historical significance for naming the customs office",
+          "type": "plan",
+          "attendees": [
+            "Daughters of Port Grove"
+          ],
+          "topic_name": "name_harbor_area_Meeting_10_Historical_Significance_Discussion"
+        },
+        {
+          "id": "name_harbor_area_Meeting_12_Public_Opinion",
+          "name": "Gather public opinion on name choices and plan the dedication event",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "topic_name": "name_harbor_area_Meeting_12_Public_Opinion_Discussion"
+        },
+        {
+          "id": "name_harbor_area_Meeting_12_Public_Opinion_Discussion",
+          "name": "Gather public opinion on name choices and plan the dedication event",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statue_john_smoth",
+      "name": "Statue to honor John Smoth in Port Grove",
+      "items": [
+        {
+          "id": "statue_john_smoth_Travel_The_Bait_Stich_Discussion",
+          "name": "Discuss travel plans to The Bait & Stich for feedback gathering",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Travel_The_Bait_Stich",
+          "name": "Travel to The Bait & Stich",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Meeting_8_Proposal",
+          "name": "Present proposal for the statue to honor John Smoth",
+          "type": "plan",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        },
+        {
+          "id": "statue_john_smoth_Meeting_8_Proposal_Discussion",
+          "name": "Present proposal for the statue to honor John Smoth",
+          "type": "discussion",
+          "attendees": [
+            "Daughters of Port Grove"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "affordable_housing",
+      "name": "Affordable housing for fishing workers (conflict with short-term rentals)",
+      "items": [
+        {
+          "id": "affordable_housing_Meeting_9_Invite_Developers_Discussion",
+          "name": "Invite housing developers",
+          "type": "discussion",
+          "attendees": [
+            "Builders Association",
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Travel_Waveside_Townhomes",
+          "name": "Travel to Waveside Townhomes in Lomark",
+          "type": "plan",
+          "attendees": [],
+          "topic_name": "affordable_housing_Travel_Waveside_Townhomes_Completed_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_10_Travel_Findings_Discussion",
+          "name": "Report on travel findings and draft housing proposal suggestion",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_6_Sites_Proposal_Discussion",
+          "name": "Discuss potential sites for affordable housing",
+          "type": "discussion",
+          "attendees": [
+            "Builders Association",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Travel_Waveside_Townhomes_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Waveside Townhomes in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Travel_Tidewater_Flats",
+          "name": "Travel to Tidewater Flats in Lomark",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Travel_Tidewater_Flats_Completed_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_9_Invite_Developers",
+          "name": "Invite housing developers",
+          "type": "plan",
+          "attendees": [
+            "Builders Association",
+            "Industrial Shipping"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_9_Invite_Developers_Discussion"
+        },
+        {
+          "id": "affordable_housing_Travel_Tidewater_Flats_Discussion",
+          "name": "Discuss travel plans to Tidewater Flats in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Travel_Tidewater_Flats_Completed_Discussion",
+          "name": "Discuss the completed travel plans to Tidewater Flats in Lomark",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_8_Gather_Feedback_Discussion",
+          "name": "Gather community feedback on housing needs",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping",
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_10_Housing_Proposal",
+          "name": "Report on travel findings and draft housing proposal suggestion",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_10_Travel_Findings_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_7_Debate",
+          "name": "Debate the conflict with short-term rentals",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_7_Debate_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_6_Sites_Proposal",
+          "name": "Discuss potential sites for affordable housing",
+          "type": "plan",
+          "attendees": [
+            "Builders Association",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_6_Sites_Proposal_Discussion"
+        },
+        {
+          "id": "affordable_housing_Meeting_7_Debate_Discussion",
+          "name": "Debate the conflict with short-term rentals",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel"
+        },
+        {
+          "id": "affordable_housing_Meeting_8_Feedback",
+          "name": "Gather community feedback on housing needs",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping",
+            "Ed Helpsford"
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "affordable_housing_Meeting_8_Gather_Feedback_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "new_crane_lomark",
+      "name": "Money for a new crane at Lomark",
+      "items": [
+        {
+          "id": "new_crane_lomark_Meeting_5_Cost_Impact_Report",
+          "name": "Get a formal cost impact & environment report",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel",
+          "topic_name": "new_crane_lomark_Meeting_5_Cost_Impact_Report_Discussion"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_8_Share_Findings",
+          "name": "Share findings and plan next steps",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel",
+          "topic_name": "new_crane_lomark_Meeting_8_Share_Findings_Discussion"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_4_Cost_Analysis",
+          "name": "Present cost analysis for the new crane",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping",
+            "Tours Central Ticketing",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel",
+          "topic_name": "new_crane_lomark_Meeting_4_Cost_Analysis_Discussion"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_8_Share_Findings_Discussion",
+          "name": "Share findings and plan next steps",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_4_Cost_Analysis_Discussion",
+          "name": "Present cost analysis for the new crane",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping",
+            "Tours Central Ticketing",
+            "Saltwater Serenades"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "new_crane_lomark_Meeting_5_Cost_Impact_Report_Discussion",
+          "name": "Get a formal cost impact & environment report started",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel"
+        }
+      ]
+    },
+    {
+      "id": "name_inspection_office",
+      "name": "Putting a name on the inspection office in Lomark",
+      "items": [
+        {
+          "id": "name_inspection_office_Meeting_8_Importance",
+          "name": "Discuss the importance of naming the inspection office",
+          "type": "plan",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "topic_name": "name_inspection_office_Meeting_8_Importance_Discussion"
+        },
+        {
+          "id": "name_inspection_office_Meeting_8_Importance_Discussion",
+          "name": "Discuss the importance of naming the inspection office",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ]
+        },
+        {
+          "id": "name_inspection_office_Meeting_9_Community_Vote_Discussion",
+          "name": "Organize a community vote on the name",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ]
+        },
+        {
+          "id": "name_inspection_office_Meeting_9_Community_Vote",
+          "name": "Organize a community vote on the name",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "topic_name": "name_inspection_office_Meeting_9_Community_Vote_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "waterfront_market",
+      "name": "Establishing a Waterfront Market in Haacklee",
+      "items": [
+        {
+          "id": "waterfront_market_Meeting_9_Report_Discussion",
+          "name": "Plan a detailed plan for the market, including layout and vendor requirements",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "waterfront_market_Meeting_7_Benefits_Feasibility",
+          "name": "Discuss the benefits and feasibility of establishing a waterfront market",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "waterfront_market_Meeting_9_Report",
+          "name": "Plan a detailed plan for the market, including layout and vendor requirements",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism",
+          "topic_name": "waterfront_market_Meeting_9_Report_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "fish_vacuum",
+      "name": "Fish Vacuum",
+      "items": [
+        {
+          "id": "fish_vacuum_Meeting_3_Report_Discussion",
+          "name": "Provide report on cost-benefit analysis",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel"
+        },
+        {
+          "id": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis_Discussion",
+          "name": "Provide cost-benefit analysis of implementing a fish vacuum",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis",
+          "name": "Provide cost-benefit analysis of implementing a fish vacuum",
+          "type": "plan",
+          "attendees": [
+            "High Seas Fishing Inc."
+          ],
+          "industry": "small vessel",
+          "topic_name": "fish_vacuum_Meeting_2_Cost_Benefit_Analysis_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Meeting_1_Introduction",
+          "name": "General Introduction to what a fish vacuum is",
+          "type": "plan",
+          "attendees": [
+            "Seal",
+            "High Seas Fishing Inc."
+          ],
+          "industry": "large vessel/small vessel",
+          "topic_name": "fish_vacuum_Meeting_1_Introduction_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Meeting_3_Report",
+          "name": "Provide report on cost-benefit analysis",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "large vessel",
+          "topic_name": "fish_vacuum_Meeting_3_Report_Discussion"
+        },
+        {
+          "id": "fish_vacuum_Meeting_1_Introduction_Discussion",
+          "name": "General Introduction to what a fish vacuum is",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein",
+            "High Seas Fishing Inc."
+          ],
+          "industry": "large vessel/small vessel"
+        }
+      ]
+    },
+    {
+      "id": "expanding_tourist_wharf",
+      "name": "Expanding the tourist wharf/infrastructure in Haacklee",
+      "items": [
+        {
+          "id": "expanding_tourist_wharf_Meeting_9_Start_Report_Discussion",
+          "name": "Get a formal cost impact & environment report started",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein",
+            "Seal"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_9_Report",
+          "name": "Get a formal cost impact & environment report",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein",
+            "Seal"
+          ],
+          "industry": "tourism",
+          "topic_name": "expanding_tourist_wharf_Meeting_10_Report_Update_Discussion"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_10_Report_Update_Discussion",
+          "name": "Update on formal cost impact & environment report",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_7_Initial_Views_Discussion",
+          "name": "Discuss and share initial views on expanding the tourist wharf/infrastructure",
+          "type": "discussion",
+          "attendees": [
+            "Tours Central Ticketing",
+            "Paackland Container Inc.",
+            "Seal"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_11_Report_Update_Discussion",
+          "name": "Update on formal cost impact & environment report",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "expanding_tourist_wharf_Meeting_8_Expand_Ideas_Discussion",
+          "name": "Expand on views and ideas discussed in the previous meeting",
+          "type": "discussion",
+          "attendees": [
+            "Tours Central Ticketing",
+            "Paackland Container Inc.",
+            "Seal"
+          ],
+          "industry": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "heritage_walking_tour",
+      "name": "Developing a Heritage Walking Tour in Haacklee",
+      "items": [
+        {
+          "id": "heritage_walking_tour_Meeting_7_Discussion",
+          "name": "Discuss and outline the proposed heritage walking tour route and main landmarks",
+          "type": "discussion",
+          "attendees": [
+            "Daughters of Port Grove"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "heritage_walking_tour_Meeting_7_Outline",
+          "name": "Discuss and outline the proposed heritage walking tour route and main landmarks",
+          "type": "plan",
+          "attendees": [
+            "Daughters of Port Grove"
+          ],
+          "industry": "tourism",
+          "topic_name": "heritage_walking_tour_Meeting_7_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "concert",
+      "name": "Plan for Concert",
+      "items": [
+        {
+          "id": "concert_Meeting_7_Discussion",
+          "name": "Discuss any issues with concert. Discuss needs to get community feedback on concerns",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism"
+        },
+        {
+          "id": "concert_Meeting_16_Road_Closures",
+          "name": "Status of road closures and traffic issues for concert",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism",
+          "topic_name": "concert_Meeting_16_Road_Closures_Discussion"
+        },
+        {
+          "id": "concert_Meeting_7_Concert_Issues",
+          "name": "Discuss any issues with concert. Discuss needs to get community feedback on concerns",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism",
+          "topic_name": "concert_Meeting_7_Discussion"
+        },
+        {
+          "id": "concert_Meeting_16_Road_Closures_Discussion",
+          "name": "Status of road closures and traffic issues for concert",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "tourism"
+        }
+      ]
+    },
+    {
+      "id": "renaming_park_himark",
+      "name": "Renaming a park in Himark",
+      "items": [
+        {
+          "id": "renaming_park_himark_Meeting_4_Name_Ideas_Discussion",
+          "name": "Gather ideas for new name for the park",
+          "type": "discussion",
+          "attendees": [
+            "PTA"
+          ]
+        },
+        {
+          "id": "renaming_park_himark_Meeting_4_Name_Ideas",
+          "name": "Gather ideas for new name for the park",
+          "type": "plan",
+          "attendees": [
+            "PTA"
+          ],
+          "topic_name": "renaming_park_himark_Meeting_4_Name_Ideas_Discussion"
+        }
+      ]
+    },
+    {
+      "id": "low_volume_crane",
+      "name": "Low-volume unload crane in Haacklee",
+      "items": [
+        {
+          "id": "low_volume_crane_Meeting_8_Report",
+          "name": "Report on travel and submit letter of support for low-volume unload crane",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Meeting_8_Report_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Meeting_3_Proposal_Discussion",
+          "name": "Discuss potential benefits of low-volume unload crane",
+          "type": "discussion",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions_Completed_Discussion_Crane",
+          "name": "Discuss the completed travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Meeting_8_Report_Discussion",
+          "name": "Report on travel and submit letter of support for low-volume unload crane",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions",
+          "name": "Travel to Harbor Route Solutions in Haacklee",
+          "type": "plan",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Travel_Harbor_Route_Solutions_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Meeting_3_Proposal",
+          "name": "Discuss potential benefits of low-volume unload crane",
+          "type": "plan",
+          "attendees": [
+            "Ed Helpsford"
+          ],
+          "industry": "small vessel",
+          "topic_name": "low_volume_crane_Meeting_3_Proposal_Discussion"
+        },
+        {
+          "id": "low_volume_crane_Travel_Harbor_Route_Solutions_Discussion",
+          "name": "Discuss travel plans to Harbor Route Solutions in Haacklee",
+          "type": "discussion",
+          "attendees": [
+            "Seal"
+          ],
+          "industry": "small vessel"
+        }
+      ]
+    },
+    {
+      "id": "deep_fishing_dock",
+      "name": "Deep maintenance to the commercial fishing dock at Himark",
+      "items": [
+        {
+          "id": "deep_fishing_dock_Meeting_3_Maintenance_Plan",
+          "name": "Discuss maintenance plan and designate travel representatives",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein",
+            "Industrial Shipping"
+          ],
+          "topic_name": "deep_fishing_dock_Meeting_3_Maintenance_Plan_Discussion"
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Recommendation",
+          "name": "Provide recommendation based on visit feedback",
+          "type": "plan",
+          "attendees": [
+            "Teddy Goldstein"
+          ],
+          "topic_name": "deep_fishing_dock_Meeting_4_Recommendation_Discussion"
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Recommendation_Discussion",
+          "name": "Provide recommendation based on visit feedback",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Findings_Report_Discussion",
+          "name": "Report on findings from dock visit",
+          "type": "discussion",
+          "attendees": [
+            "Industrial Shipping",
+            "Teddy Goldstein"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_4_Findings_Report",
+          "name": "Report on findings from dock visit",
+          "type": "plan",
+          "attendees": [
+            "Industrial Shipping",
+            "Teddy Goldstein"
+          ],
+          "topic_name": "deep_fishing_dock_Meeting_4_Findings_Report_Discussion"
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_2_Importance_Discussion",
+          "name": "Discuss the importance of maintenance and allocate initial budget",
+          "type": "discussion",
+          "attendees": [
+            "High Seas Fishing Inc.",
+            "Tours Central Ticketing"
+          ]
+        },
+        {
+          "id": "deep_fishing_dock_Meeting_3_Maintenance_Plan_Discussion",
+          "name": "Discuss maintenance plan and designate travel representatives",
+          "type": "discussion",
+          "attendees": [
+            "Teddy Goldstein",
+            "Industrial Shipping"
+          ]
+        }
+      ]
+    }
+  ],
+  "industries": [
+    {"id": "tourism", "color": "#ffd70e"},
+    {"id": "large vessel", "color": "#06143b"},
+    {"id": "small vessel", "color": "#0effeb"},
+    {
+      "id": "large vessel/small vessel",
+      "color": "#0e6eff"
+    },
+    {
+      "id": "",
+      "color": "#f5f0f0"
+    },
+    {
+      "id": "small vessel/tourism",
+      "color": "#3aff0e"
+    },
+    {
+      "id": "tourism/small vessel",
+      "color": "#3aff0e"
+    }
+  ]
+}

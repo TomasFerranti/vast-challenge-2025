@@ -1,0 +1,187 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chart-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+text, span, label, h1 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+}
+
+/* Person */
+#people .person text {
+    font-size: 14px;
+    text-anchor: middle;
+}
+
+#people .person {
+    cursor: pointer;
+    transition: filter 0.4s, opacity 0.4s;
+}
+
+#people .person:not(.selected) {
+    filter: grayscale(70%);
+    opacity: 0.3;
+}
+
+
+
+/* Map */
+
+/*[ "Island", "Fishing Ground", "Ecological Preserve", "city", "buoy" ]*/
+
+#map_polygons path.Island {
+    fill: #aa8989;
+    stroke: #333;
+    stroke-width: 0.5;
+}
+#map_polygons path.FishingGround {
+    fill: #c4dce6;
+    stroke: #333;
+    stroke-width: 0.5;
+    stroke-dasharray: 3, 3;
+}
+#map_polygons path.EcologicalPreserve {
+    fill: #d3e4d3;
+    stroke: #333;
+    stroke-width: 0.5;
+    stroke-dasharray: 3, 3;
+}
+#map_polygons path.city {
+    fill: #fa8888;
+    stroke: #333;
+    stroke-width: 0.5;
+}
+#map_polygons path.buoy {
+    fill: #6e3ef0;
+    stroke: #333;
+    stroke-width: 0.5;
+}
+/*
+#map_polygons path:hover {
+    fill: #e4ae5f;
+}*/
+
+
+/* Arrows */
+#timeline-points circle {
+    /*transition: fill 0.5s, opacity 0.5s;*/
+}
+
+
+#timeline-points circle:not(.hoovered) {
+    /*fill: gray;*/
+    opacity: 0.2;
+}
+
+#trips-arrows path {
+    stroke: red;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    marker-end: url(#triangle);
+}
+
+/* Scatterplot */
+#scatter-1 svg, #scatter-2 svg, #scatter-3 svg {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin-bottom: 18px;
+}
+
+#scatter-1 .axis-label, #scatter-2 .axis-label, #scatter-3 .axis-label {
+    font-size: 12px;
+    fill: #666;
+}
+
+#scatter-1 circle, #scatter-2 circle, #scatter-3 circle {
+    transition: stroke 0.2s, r 0.2s;
+    cursor: pointer;
+}
+
+.meeting-label.selected-meeting {
+    font-weight: bold;
+    fill: #0e6eff;
+    text-decoration: underline;
+    background: #eaf6ff;
+}
+
+/* Topic Visualization */
+#topic-visualization-container {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 18px 18px 10px 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin-top: 24px;
+    min-width: 600px;
+}
+#topic-selector {
+    font-size: 15px;
+    padding: 3px 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+#topic-participants, #topic-places {
+    min-height: 120px;
+}
+#topic-places-svg svg {
+    background: #fff;
+    border-radius: 8px;
+}
+.place-label {
+    font-weight: bold;
+} 
