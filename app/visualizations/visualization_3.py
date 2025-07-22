@@ -9,8 +9,8 @@ import json
 import os
 from flask import current_app
 
-TITLE = "Map Timeline Visualization"
-DESCRIPTION = "Interactive map and timeline visualization showing people movements and trip data across three datasets (Journalist, TROUT, FILAH)"
+TITLE = "Geographic Site Visits & Movement Analysis"
+DESCRIPTION = "Comparative visualization showing each committee member's site visits across three datasets using UMAP projection for geographic coordinates. Circles are color-coded by year to identify potential data entry errors and temporal patterns. The projection addresses geographical proximity issues, revealing that members typically visit two locations on Tuesdays, suggesting regular committee meeting schedules at these specific sites."
 
 def get_data(file=None, **kwargs):
     """

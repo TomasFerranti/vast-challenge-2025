@@ -9,8 +9,8 @@ import json
 import os
 from flask import current_app
 
-TITLE = "VAST Challenge Interactive Visualization"
-DESCRIPTION = "Interactive data visualization combining people, sentiments, meetings, topics, and geographic data from the VAST Challenge dataset."
+TITLE = "Individual Committee Member Analysis"
+DESCRIPTION = "Captures individual committee members' contributions and attitudes across thematic topics through a grid-based interface. Each topic displays colored squares representing distinct discussions or plans, with color indicating industry affiliation and opacity reflecting participation level. Features coordinated sentiment analysis scatterplot, detailed sentiment reasoning, dataset filtering, and member comparison mode to analyze engagement patterns and quantitative sentiment distributions."
 
 def get_data(file=None, **kwargs):
     """

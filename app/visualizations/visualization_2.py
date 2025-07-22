@@ -10,8 +10,8 @@ import json
 import os
 from flask import current_app
 
-TITLE = "Network Graph"
-DESCRIPTION = "Interactive network visualization showing relationships between entities, with layered filtering and dataset switching capabilities"
+TITLE = "Interactive Network Graph Visualization"
+DESCRIPTION = "Two-layer interactive graph visualization allowing dynamic node selection and exploration of relationships. Users can select node types for the first layer, with connected nodes appearing in the layer below. Features manual node rearrangement, orbiting layouts based on shared connections, customizable coloring functions, and dataset highlighting through opacity adjustment to analyze sample bias across multiple data sources."
 
 def get_data(file=None, **kwargs):
     """
